@@ -1,4 +1,44 @@
 article {
     background-color: #000000;
-    padding: 500px;
+    padding: 45px;
+    height: 900px;
+    font-family: "indivisible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    size: 14px;
+    color: #F6F6F6;
+}
+
+article h2 {
+    font-family: "marvin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #F6F6F6;
+    margin-top: 275px;
+}
+
+article p {
+    margin-top: 55px;
+}
+
+article .button {
+    margin-top: 100px;
+}
+
+
+/* Ajustez la largeur maximale selon vos besoins */
+
+article {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.text {
+    max-width: 50%;
+    /* Ajustez la largeur maximale selon vos besoins */
+    text-align: left;
 }
