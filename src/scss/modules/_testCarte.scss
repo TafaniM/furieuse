@@ -7,6 +7,7 @@
 
 .test-map {
     position: relative;
+    width: 200%;
 }
 
 #map-svg {
@@ -16,4 +17,21 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
+}
+
+.test-map img {
+    overflow: visible;
+    // width: 1927px;
+    width: 100%;
+    // height: 1285px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #EF1B1B;
+    border-radius: 50%;
 }
