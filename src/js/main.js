@@ -48,3 +48,28 @@ gsap.ticker.add(() =>
 // };
 
 document.addEventListener("DOMContentLoaded", init);
+
+
+
+// overlay
+
+// function openOverlay() {
+//     console.log("Fonction openOverlay() appelée");
+//     var overlay = document.getElementById("overlay");
+//     if (overlay) {
+//         overlay.style.display = "block";
+//     } else {
+//         console.error("L'élément overlay est introuvable");
+//     }
+// }
+
+// function closeOverlay() {
+//     document.getElementById("overlay").style.display = "none";
+// }
+
+
+var card1 = document.querySelector('#button1');
+
+card1.addEventListener('click', function () {
+    card1.classList.toggle('highlight');
+})

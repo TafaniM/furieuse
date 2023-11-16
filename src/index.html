@@ -17,7 +17,7 @@
   <header>
     <p>img</p>
   </header>
-  <div class="test-map">
+  <div class="test-map overlay-container">
     <img id="map-img" src="img/carte.png" alt="">
     <svg id="map-svg" viewBox="0 0 1927 1285" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -26,10 +26,37 @@
     </svg>
     <div class="circle"></div>
     <div class="point">
-      <img id="img1" src="img/chateau-p1.png" alt="chateau-p1">
+
+      <!-- <div class="overlay" id="overlay">
+        <div class="overlay-content">
+          <p>Contenu de la page superposée</p>
+          <img src="img/fugue-p2.png" alt="">
+          <button onclick="closeOverlay()">Fermer</button>
+        </div>
+      </div>
+
+
+      <img id="img1" src="img/chateau-p1.png" alt="chateau-p1" onclick="openOverlay()"> -->
+
+      <section class="item chateau" id="button1">
+        <img id="img1" src="img/chateau-p1.png" alt="chateau-p1">
+      </section>
+
+
+
+
       <img id="img2" src="img/fugue-p2.png" alt="fugue-p2">
       <img id="img3" src="img/voyage-p3.png" alt="voyage-p3">
     </div>
+  </div>
+
+  <div class="overlay">
+    <div class="story">
+      <div class="part1">
+        <img src="img/part1-chateau.png" alt="">
+      </div>
+    </div>
+
   </div>
   <article>
     <div class="text">
