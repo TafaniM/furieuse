@@ -81,3 +81,18 @@ overlay2.addEventListener('click', function () {
     overlay2.classList.add('overlay-hidden');
     html.classList.remove('scroll-lock');
 })
+
+// overlay 3
+
+var story3 = document.querySelector('#button3');
+var overlay3 = document.querySelector('#overlay3');
+
+story3.addEventListener('click', function () {
+    overlay3.classList.remove('overlay-hidden');
+    html.classList.add('scroll-lock');
+})
+
+overlay3.addEventListener('click', function () {
+    overlay3.classList.add('overlay-hidden');
+    html.classList.remove('scroll-lock');
+})
