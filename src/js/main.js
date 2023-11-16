@@ -51,22 +51,7 @@ document.addEventListener("DOMContentLoaded", init);
 
 
 
-// overlay
-
-// function openOverlay() {
-//     console.log("Fonction openOverlay() appelée");
-//     var overlay = document.getElementById("overlay");
-//     if (overlay) {
-//         overlay.style.display = "block";
-//     } else {
-//         console.error("L'élément overlay est introuvable");
-//     }
-// }
-
-// function closeOverlay() {
-//     document.getElementById("overlay").style.display = "none";
-// }
-
+// overlay 1
 
 var html = document.querySelector('html');
 var story1 = document.querySelector('#button1');
@@ -79,5 +64,20 @@ story1.addEventListener('click', function () {
 
 overlay1.addEventListener('click', function () {
     overlay1.classList.add('overlay-hidden');
+    html.classList.remove('scroll-lock');
+})
+
+// overlay 2
+
+var story2 = document.querySelector('#button2');
+var overlay2 = document.querySelector('#overlay2');
+
+story2.addEventListener('click', function () {
+    overlay2.classList.remove('overlay-hidden');
+    html.classList.add('scroll-lock');
+})
+
+overlay2.addEventListener('click', function () {
+    overlay2.classList.add('overlay-hidden');
     html.classList.remove('scroll-lock');
 })
