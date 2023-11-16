@@ -68,8 +68,16 @@ document.addEventListener("DOMContentLoaded", init);
 // }
 
 
-var card1 = document.querySelector('#button1');
+var html = document.querySelector('html');
+var story1 = document.querySelector('#button1');
+var overlay1 = document.querySelector('#overlay1');
 
-card1.addEventListener('click', function () {
-    card1.classList.toggle('highlight');
+story1.addEventListener('click', function () {
+    overlay1.classList.remove('overlay-hidden');
+    html.classList.add('scroll-lock');
+})
+
+overlay1.addEventListener('click', function () {
+    overlay1.classList.add('overlay-hidden');
+    html.classList.remove('scroll-lock');
 })
