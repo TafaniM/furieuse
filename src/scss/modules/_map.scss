@@ -1,5 +1,51 @@
 .map {
     background-color: orange;
-    padding: 45px;
-    height: 1020px;
+    // padding: 45px;
+    // height: 1020px;
+    height: 100vh;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#map-svg path {
+    fill: none;
+    stroke: #ef1b1b;
+    stroke-dasharray: 15px;
+    stroke-width: 6px;
+}
+
+.test-map {
+    position: relative;
+    width: 250%;
+}
+
+#map-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.test-map img {
+    overflow: visible;
+    // width: 1927px;
+    width: 100%;
+    // height: 1285px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #ef1b1b;
+    border-radius: 50%;
 }
