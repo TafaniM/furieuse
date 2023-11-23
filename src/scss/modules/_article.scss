@@ -4,7 +4,7 @@ article {
     justify-content: left;
     min-height: 100vh;
     margin: 0;
-    background-color: #000000;
+    background: #1C1C1C;
     padding: 45px;
     height: 900px;
     font-family: "indivisible", sans-serif;
@@ -36,8 +36,9 @@ article .button {
     margin-top: 100px;
 }
 
-.book {
-    width: 440px;
-    height: 600px;
-    background-color: #D01F3D;
+.book img {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 60%;
 }
