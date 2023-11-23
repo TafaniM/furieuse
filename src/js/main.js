@@ -24,9 +24,9 @@ function init() {
             end: "100%", // Nombre de pixels scrollés pour produire l'animation
             scrub: 1,
             pin: true,
-            markers: true,
-            fastScrollEnd: true,
-            preventOverlaps: false,
+            // markers: true,
+            // fastScrollEnd: true,
+            // preventOverlaps: false,
         },
         ease: "power1.inOut",
         // duration: 20
