@@ -46,3 +46,37 @@ h3 {
 .box3 h3 {
     margin-bottom: 30px;
 }
+
+.newsletter {
+    display: flex;
+}
+
+.mail {
+    width: 325px;
+    height: 30px;
+    border-radius: 7px;
+    background: #F6F6F6;
+    margin-top: 45px;
+    color: #D01F3D;
+    font-family: "indivisible", sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+}
+
+.confirm {
+    margin-left: 20px;
+    width: 94.623px;
+    height: 30px;
+    border-radius: 7px;
+    background: #F6F6F6;
+    margin-top: 45px;
+    color: #D01F3D;
+    font-family: "indivisible", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.confirm a {
+    text-decoration: none;
+}
